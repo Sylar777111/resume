@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="pritsak, cv, resume" />
+    <meta name="description" content="Сайт-резюме Богдан Прицак" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Bohdan CV</title>
+  </head>
+  <body>
+    <!--Фото и инфа о себе-->
+    <div class="container">
+      <div class="foto">
+        <img src="img.jpg" alt="Bohdan Pritsak" class="avatar" />
+      </div>
+      <div class="info-text">
+        <h1>Богдан Прицак</h1>
+        <h2>Мне 38 и я пробую себя в програмировании</h2>
+        <h2>(тяжело, но интересно)</h2>
+        <p><em>Я папа особенного ребенка</em></p>
+        <h3>Список соцсетей</h3>
+        <a href="https://t.me/Sylarr" target="_blank">Telegram</a>
+        <a href="https://www.instagram.com/sylar7771/" target="_blank"
+          >Instagram</a
+        >
+        <a
+          href="https://www.facebook.com/profile.php?id=100002221298451"
+          target="_blank"
+          >Facebook</a
+        >
+      </div>
+    </div>
+    <br />
+    <!--Хобби(список)-->
+    <div class="box1">
+      <h2>Хобби</h2>
+      <ul>
+        <li>вкусная готовка еды</li>
+        <li>путешествие со своей семьей</li>
+        <li>поклонник скандинавских детективов</li>
+        <li>спорт как неотъемлемая часть жизни</li>
+      </ul>
+    </div>
+    <br />
+    <!--Робота(таблица)-->
+    <div class="card">
+      <h2>Опыт работы</h2>
+      <table class="table">
+        <tbody>
+          <thead>
+            <tr>
+              <th>Учреждение</th>
+              <th>Должность</th>
+              <th>Год</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>Апеляционный суд</td>
+            <td>секретарь судебных заседаний</td>
+            <td>2006-2007</td>
+          </tr>
+          <tr>
+            <td>Районный суд</td>
+            <td>помощник судьи</td>
+            <td>2007-2009</td>
+          </tr>
+          <tr>
+            <td>Магазин ЧистоFF</td>
+            <td>владелец</td>
+            <td>2011 - по даный момент</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br />
+    <!--Качества(список)-->
+    <div class="box2">
+      <h2>Качества</h2>
+      <ol>
+        <li>Усидчивость</li>
+        <li>Коммуникабельность</li>
+        <li>Стрессоустойчивость</li>
+        <li>Аналитическое мышление</li>
+        <li>Мобильность</li>
+        <li>Ответственность</li>
+      </ol>
+    </div>
+    <br />
+    <!--Знание языков(список)-->
+    <div class="box3">
+      <h2>Языки</h2>
+      <ul>
+        <li>украинский(родной)</li>
+        <li>русский(свободно)</li>
+        <li>польский(свободно)</li>
+        <li>английский(B1)</li>
+      </ul>
+    </div>
+    <br />
+    <!--Мои контакты(использую теги Form,Lable,Input и Textarea)-->
+    <form action="" class="form">
+      <h2>Связаться со мной</h2>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Ваше Имя:</label>
+          <input type="text" id="name" placeholder="Введите имя" />
+        </div>
+        <div class="form-group">
+          <label for="email">Ваш email:</label>
+          <input type="text" id="email" placeholder="Введите email" />
+        </div>
+        <div class="form-group">
+          <label for="massage">Ваше сообщение</label>
+          <br />
+          <textarea name="message" id="" cols="20" rows="5"></textarea>
+        </div>
+      </div>
+      <input class="btn" type="submit" value="Отправить!" />
+    </form>
+  </body>
+</html>
